@@ -1,0 +1,87 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "no-constant-condition": 1,
+    "no-debugger": 1,
+    "no-extra-parens": 1,
+
+    "no-extra-boolean-cast": 0,
+
+    "block-scoped-var": 2,
+    "curly": [2, "all"],
+    "default-case": 2,
+    "no-div-regex": 2,
+    "no-else-return": 2,
+    "no-eq-null": 2,
+    "no-floating-decimal": 2,
+    "no-multi-spaces": [0, {"exceptions": {"Property": true, "ImportDeclaration": true, "VariableDeclarator": true, "AssignmentExpression": true}}],
+    "no-self-compare": 2,
+    "wrap-iife": [2, "inside"],
+
+    "complexity": [1, 4],
+    "dot-notation": 1,
+    "guard-for-in": 1,
+    "no-extend-native": 1,
+    "no-iterator": 1,
+    "no-loop-func": 1,
+    "no-multi-str": 1,
+    "no-proto": 1,
+    "no-throw-literal": 1,
+    "no-unused-expressions": 1,
+    "radix": 1,
+
+    "no-alert": 0,
+    "no-extra-bind": 0,
+    "yoda": 0,
+
+    "strict": 2,
+
+    "no-catch-shadow": 2,
+
+    "no-undefined": 1,
+    "no-unused-vars": [1, {"vars": "all", "args": "after-used"}],
+    "no-undef-init": 1,
+
+    "no-path-concat": 1,
+    "no-sync": 1,
+
+    "indent": [2, 4, {"SwitchCase": 1}],
+    "comma-style": [2, "last"],
+    "consistent-this": [2, "_this"],
+    "func-style": [2, "expression"],
+    "no-nested-ternary": 2,
+    "quotes": [2, "single"],
+    "space-before-blocks": [2, "always"],
+    "space-before-function-paren": [2, "never"],
+    "array-bracket-spacing": [2, "never"],
+    "space-in-parens": [2, "never"],
+    "keyword-spacing": 2,
+    "space-unary-ops": [2, {"words": true, "nonwords": false}],
+
+    "brace-style": [1, "1tbs", {"allowSingleLine": true}],
+    "comma-spacing": [1, {"before": false, "after": true}],
+    "func-names": 1,
+    "max-nested-callbacks": [1, 3],
+    "no-lonely-if": 1,
+    "no-multiple-empty-lines": [1, {"max": 2}],
+    "no-trailing-spaces": 1,
+    "operator-linebreak": [1, "before"],
+    "semi": [1, "always"],
+    "semi-spacing": [1, {"before": false, "after": true}],
+    "space-infix-ops": 1,
+
+    "no-underscore-dangle": 0,
+
+    "no-var": 1,
+
+    "max-len": [1, 120, 2],
+    "max-params": [1, 4],
+    "max-statements": [1, 12]
+  },
+  "parserOptions": {
+    "sourceType": "script"
+  }
+}
