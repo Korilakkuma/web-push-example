@@ -1,0 +1,37 @@
+{
+  "name": "web-push-example",
+  "version": "0.0.0",
+  "description": "Web Push Example",
+  "main": "server.js",
+  "scripts": {
+    "web-push": "web-push generate-vapid-keys",
+    "lint": "eslint server.js public/*.js && stylelint public/app.css",
+    "start": "npm run lint && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Korilakkuma/web-push-example.git"
+  },
+  "keywords": [
+    "Web Push API",
+    "Web Notifications API",
+    "Service Worker"
+  ],
+  "author": "Korilakkuma <rilakkuma.san.xjapan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Korilakkuma/web-push-example/issues"
+  },
+  "homepage": "https://github.com/Korilakkuma/web-push-example#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "web-push": "^3.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-cli": "^1.1.1",
+    "stylelint": "^8.0.0",
+    "stylelint-config-standard": "^17.0.0"
+  }
+}
